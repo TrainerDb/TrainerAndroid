@@ -1,6 +1,7 @@
 # TrainerAndroid
 TrainerAndroid is an Android App for power-based cycling training, deeply based on GoldenCheetah project.
-Workouts: http://trainerdb-84bdb.firebaseapp.com
+* Workouts: http://trainerdb-84bdb.firebaseapp.com
+* Wiki and screenshots: http://github.com/TrainerDb/TrainerAndroid/wiki
 
 ## Current Features
 * Complete power-based workouts.
