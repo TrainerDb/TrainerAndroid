@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "632821488129",
+    "firebase_url": "https://trainerdb-84bdb.firebaseio.com",
+    "project_id": "trainerdb-84bdb",
+    "storage_bucket": "trainerdb-84bdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632821488129:android:328a37a451a02ed3",
+        "android_client_info": {
+          "package_name": "com.trainerdb.trainerandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632821488129-m545e13kj7oqk3jj660cu7qknokf13p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWdR8nYgA5GiadOB609qAjY7zdVQ0TKOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

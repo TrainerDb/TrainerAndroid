@@ -1,0 +1,296 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">TrainerAndroid</string>
+    <string name="title_workout_detail">Workout Detail</string>
+    <string name="title_workout_list">Workout List</string>
+
+    <string-array name="Widget">
+        <item>POWER</item>
+        <item>TARGET</item>
+        <item>SPEED</item>
+        <item>KM</item>
+        <item>HR</item>
+        <item>CADENCE</item>
+        <item>KJ</item>
+
+        <item>AVG_POWER</item>
+        <item>AVG_SPEED</item>
+        <item>AVG_CAD</item>
+        <item>AVG_HR</item>
+
+        <item>MAX_HR</item>
+        <item>MAX_CAD</item>
+        <item>MAX_SPEED</item>
+        <item>MAX_POWER</item>
+
+        <item>LAP</item>
+        <item>LP_POWER</item>
+        <item>LP_SPEED</item>
+        <item>LP_CAD</item>
+        <item>LP_HR</item>
+        <item>LP_NP</item>
+        <item>LP_TSS</item>
+        <item>LP_IF</item>
+        <item>LP_KM</item>
+        <item>LP_KJ</item>
+
+        <item>POWER_30S</item>
+
+        <item>NP</item>
+        <item>TSS</item>
+        <item>IF</item>
+
+    </string-array>
+    <string name="title_activity_train_file_list">TrainFileListActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Athlete</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_email">Email</string>
+    <string name="pref_default_email"></string>
+    <string name="pref_title_ftp">FTP</string>
+    <string name="pref_default_ftp">200</string>
+
+    <string name="pref_title_devices">Device Type</string>
+    <string-array name="pref_list_devices">
+        <item>DEV_NULL</item>
+        <item>DEV_ANTLOCAL</item>
+    </string-array>
+    <string-array name="pref_list_devices_values">
+        <item>DEV_NULL</item>
+        <item>DEV_ANTLOCAL</item>
+    </string-array>
+
+    <string name="pref_title_virtual_power">Virtual Power</string>
+    <string-array name="pref_list_virtual_power">
+        <item>None</item>
+        <item>Kurt Kinetic Cyclone</item>
+        <item>Kurt Kinetic Road Machine</item>
+        <item>Cyclops Fluid 2</item>
+        <item>BT Advanced Training System</item>
+        <item>LeMond Revolution</item>
+        <item>1UP USA Trainer</item>
+        <item>Minoura V100 Trainer (H)</item>
+        <item>Minoura V100 Trainer (5)</item>
+        <item>Minoura V100 Trainer (4)</item>
+        <item>Minoura V100 Trainer (3)</item>
+        <item>Minoura V100 Trainer (2)</item>
+        <item>Minoura V100 Trainer (1)</item>
+        <item>Minoura V100 Trainer (L)</item>
+        <item>Minoura V270/V150/V130/LR340/LR540 Trainer (H)</item>
+        <item>Minoura V270/V150/V130/LR340/LR540 Trainer (5)</item>
+        <item>Minoura V270/V150/V130/LR340/LR540 Trainer (4)</item>
+        <item>Minoura V270/V150/V130/LR340/LR540 Trainer (3)</item>
+        <item>Minoura V270/V150/V130/LR340/LR540 Trainer (2)</item>
+        <item>Minoura V270/V150/V130/LR340/LR540 Trainer (1)</item>
+        <item>Minoura V270/V150/V130/LR340/LR540 Trainer (L)</item>
+        <item>Saris Powerbeam Pro</item>
+        <item>Tacx Satori (2)</item>
+        <item>Tacx Satori (4)</item>
+        <item>Tacx Satori (6)</item>
+        <item>Tacx Satori (8)</item>
+        <item>Tacx Satori (10)</item>
+        <item>Tacx Flow (0)</item>
+        <item>Tacx Flow (2)</item>
+        <item>Tacx Flow (4)</item>
+        <item>Tacx Flow (6)</item>
+        <item>Tacx Flow (8)</item>
+        <item>Tacx Blue Twist (1)</item>
+        <item>Tacx Blue Twist (3)</item>
+        <item>Tacx Blue Twist (5)</item>
+        <item>Tacx Blue Twist (7)</item>
+        <item>Tacx Blue Motion (2)</item>
+        <item>Tacx Blue Motion (4)</item>
+        <item>Tacx Blue Motion (6)</item>
+        <item>Tacx Blue Motion (8)</item>
+        <item>Tacx Blue Motion (10)</item>
+        <item>Elite Supercrono Powermag (1)</item>
+        <item>Elite Supercrono Powermag (2)</item>
+        <item>Elite Supercrono Powermag (3)</item>
+        <item>Elite Supercrono Powermag (4)</item>
+        <item>Elite Supercrono Powermag (5)</item>
+        <item>Elite Supercrono Powermag (6)</item>
+        <item>Elite Supercrono Powermag (7)</item>
+        <item>Elite Supercrono Powermag (8)</item>
+        <item>Elite Turbo Muin (2013)</item>
+        <item>Elite Qubo Power Fluid</item>
+        <item>Cyclops Magneto Pro (Road)</item>
+        <item>Elite Arion Mag (0)</item>
+        <item>Elite Arion Mag (1)</item>
+        <item>Elite Arion Mag (2)</item>
+        <item>Blackburn Tech Fluid</item>
+        <item>Tacx Sirius (1)</item>
+        <item>Tacx Sirius (2)</item>
+        <item>Tacx Sirius (3)</item>
+        <item>Tacx Sirius (4)</item>
+        <item>Tacx Sirius (5)</item>
+        <item>Tacx Sirius (6)</item>
+        <item>Tacx Sirius (7)</item>
+        <item>Tacx Sirius (8)</item>
+        <item>Tacx Sirius (9)</item>
+        <item>Tacx Sirius (10)</item>
+    </string-array>
+    <string-array name="pref_list_virtual_power_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+    </string-array>
+
+    <string name="pref_title_tire">Tire Size</string>
+    <string-array name="pref_list_tire">
+        <item>20mm</item>
+        <item>23mm</item>
+        <item>25mm</item>
+        <item>28mm</item>
+        <item>1.00</item>
+        <item>1.50</item>
+        <item>1.75</item>
+        <item>1.90</item>
+        <item>1.95</item>
+        <item>2.00</item>
+        <item>2.10</item>
+        <item>2.125</item>
+    </string-array>
+    <string-array name="pref_list_tire_values">
+        <item>40</item>
+        <item>46</item>
+        <item>50</item>
+        <item>56</item>
+        <item>50.80</item>
+        <item>76.20</item>
+        <item>88.90</item>
+        <item>96.50</item>
+        <item>99.00</item>
+        <item>101.6</item>
+        <item>106.7</item>
+        <item>108.0</item>
+    </string-array>
+
+    <string name="pref_title_rim">Rim Size</string>
+    <string-array name="pref_list_rim">
+        <item>26inch</item>
+        <item>27inch</item>
+        <item>28inch</item>
+        <item>650b/27.5</item>
+        <item>650c</item>
+        <item>700c/29er</item>
+    </string-array>
+    <string-array name="pref_list_rim_values">
+        <item>559</item>
+        <item>630</item>
+        <item>635</item>
+        <item>584</item>
+        <item>571</item>
+        <item>622</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

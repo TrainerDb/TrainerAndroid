@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="trainPower">#FFFF00</color>
+    <color name="trainTarget">#FFFF00</color>
+    <color name="trainLapPower">#FFFF00</color>
+    <color name="trainSpeed">#FF0000</color>
+    <color name="trainHearRate">#FF0000</color>
+    <color name="trainLapHr">#FF0000</color>
+    <color name="trainLap">#00ff00</color>
+    <color name="trainDistance">#9AF0FF</color>
+    <color name="trainCadence">#9AF0FF</color>
+
+    <color name="COLORZONE1">#FF00FF</color>
+    <color name="COLORZONE2">#2A00FF</color>
+    <color name="COLORZONE3">#00AAFF</color>
+    <color name="COLORZONE4">#00FF80</color>
+    <color name="COLORZONE5">#55FF00</color>
+    <color name="COLORZONE6">#FFD500</color>
+    <color name="COLORZONE7">#ff0000</color>
+    <color name="COLORZONE8">#555555</color>
+    <color name="COLORZONE9">#555555</color>
+    <color name="COLORZONE10">#555555</color>
+</resources>

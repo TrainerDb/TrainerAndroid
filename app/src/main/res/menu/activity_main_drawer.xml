@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_workouts"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Workouts" />
+        <item
+            android:id="@+id/nav_train_files"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Train Files" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

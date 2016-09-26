@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/train_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="#262526"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry11"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry12"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry13"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry14"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.trainerdb.trainerandroid.AutoResizeTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="INTERVAL TIME"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <com.trainerdb.trainerandroid.AutoResizeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/tvTrainIntervalTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:maxLines="1"
+                        android:text="00:00"
+                        android:textColor="#FFFFFF"
+                        android:textSize="100sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.trainerdb.trainerandroid.AutoResizeTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TOTAL TIME"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <com.trainerdb.trainerandroid.AutoResizeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/tvTrainTotalTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:maxLines="1"
+                        android:text="00:00"
+                        android:textColor="#FFFFFF"
+                        android:textSize="100sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry23"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry24"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry31"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry32"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry33"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <com.trainerdb.trainerandroid.train.TelemetryView
+                    android:id="@+id/telemetry34"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></com.trainerdb.trainerandroid.train.TelemetryView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="#000000"
+            android:orientation="vertical">
+
+            <com.trainerdb.trainerandroid.TrainWorkoutView
+                android:id="@+id/vwTrainWorkout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTrainWorkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_anchor="@id/vwTrainWorkout"
+        app:layout_anchorGravity="bottom|right|end" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabWorkoutDetailStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="240dp"
+        android:clickable="true"
+        android:src="@android:drawable/ic_media_play"
+        android:visibility="invisible"
+        app:backgroundTint="#FF0000"
+        app:elevation="4dp" />
+</android.support.design.widget.CoordinatorLayout>
